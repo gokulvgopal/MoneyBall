@@ -10,16 +10,19 @@ This project is based off the book written by Michael Lewis (later turned into a
 
 ## Problem Statement
 To ease the situation, we need to use data analytics to find the best three alternative players for Oakland Athletics. Although there can several combinations of best three players, certain factors to be kept in mind while we select the best three are:
+
     1. The total combined salary of the three players can not exceed 15 million dollars.
     2. Their combined number of At Bats (AB) needs to be equal to or greater than the lost players.
     3. Their mean OBP had to equal to or greater than the mean OBP of the lost players.
     
 ## Solution
 This project is aimed to find one of the several combinations of players using R language. The result is going to be achieved in two ways:
+    
     1. Brute Force: This method uses assumptions from player statistics to filter out inappropriate players. Then manually select three best players from the list of the top 15 alternative players.
     2. Generalized Form (in-progress): This technique will find all combinations of player staistfying the conditions and will sort the player combo in the order of performance statistics. The top three records will suggest best three combination of players that can make the team win the season.
 
 ## DataSet
 There are two CSV files - Batting.csv and salary.csv taken from http://www.seanlahman.com/baseball-archive/statistics/
-Batting.csv - Contain player information, perfomance statistics across several years
-salary.csv - contain salary information for several years.
+    
+    1. Batting.csv - Contain player information, perfomance statistics across several years
+    2. salary.csv - contain salary information for several years.
